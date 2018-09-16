@@ -1,0 +1,9 @@
+technique
+
+var first = string.charAt(0)
+var startsWithUpper = first === first.toUpperCase();
+if(startsWithUpper){
+	console.log('capital first letter')
+} else {
+	console.log('not capital first letter')
+}
